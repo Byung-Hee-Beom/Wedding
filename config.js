@@ -14,7 +14,7 @@
 
 const CONFIG = {
   // ── 초대장 열기 ──
-  useCurtain: true,  // 초대장 열기 화면 사용 여부 (true: 사용, false: 바로 본문 표시)
+  useCurtain: false,  // 초대장 열기 화면 사용 여부 (true: 사용, false: 바로 본문 표시)
 
   // ── 메인 (히어로) ──
   groom: {
@@ -68,7 +68,7 @@ const CONFIG = {
     groom: [
       { role: "신랑", name: "박희범", bank: "기업은행", number: "010-3090-5120" },
       { role: "아버지", name: "박승수", bank: "신한은행", number: "000-000-000000" },
-      { role: "어머니", name: "고윤희", bank: "우리은행", number: "000-000-000000" }
+      { role: "어머니", name: "고윤희", bank: "농협은행", number: "173652-56-068182" }
     ],
     bride: [
       { role: "신부", name: "김병희", bank: "농협은행", number: "477-02-069418" },
